@@ -8,7 +8,7 @@ OneSoil has created beautiful field boundary maps:
 
 But, their crop data is not always accurate. In this image, the crop map from OneSoil shows maize growing between the villages of Puligny-Montrachet and Chassagne-Montrachet. As my friend would say: "Interesting, if true.":
 
-<img src=images/not_quite.jpg
+<img src=images/not_quite.jpg>
 
 Other efforts such as EuroSat have created datasets for machine learning based on image chips, but not for labeled extraction of crop types. 
 
