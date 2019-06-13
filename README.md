@@ -12,9 +12,5 @@ But, their crop data is not always accurate. In this image, the crop map from On
 
 Other efforts such as [EuroSat](https://github.com/phelber/eurosat#) have created datasets for machine learning based on image chips, but not for labeled extraction of crop types. Running fastai's library against these training data and an rgb chipset of the area around Biella gave solid results for identifying the majority feature of each chip, but doesn't do much for identifying the fields themselves or the crops that are growing in them. 
 
-How can these two methods be combined? One solution is to combine high resolution orthophotos with ground truth classified raster data. This example uses NAIP 1m imagery from the USDA and ground truth data from the Chesapeake Conservancy to create a set of raster mask image tiles that allow for the training of a deep learnign u-net model. This also gives very good results with an accuracy of  
- 
-However, run against 10m Sentinel images we run into some difficulty.
-
-LUCAS offers these types of images:
+How can these two methods be combined? One solution is to combine high resolution orthophotos with ground truth classified raster data. This example uses NAIP 1m imagery from the USDA and ground truth data from the Chesapeake Conservancy to create a set of raster mask image tiles that allow for the training of a deep learnign u-net model.
 
